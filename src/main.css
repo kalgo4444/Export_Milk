@@ -1,1 +1,25 @@
+@font-face {
+    font-family: Inter;
+    src: url("../assets/fonts/Inter_18pt-Regular.ttf");
+}
 @import "tailwindcss";
+
+@theme{
+    
+}
+
+
+p,h1,h2,h3,h4,span,button,input,textarea,select{
+    font-family: Inter;
+}
+.container{
+    max-width: 1150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a, input, button{
+    cursor: pointer;
+}
