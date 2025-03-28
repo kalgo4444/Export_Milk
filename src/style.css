@@ -152,11 +152,4 @@
     display: none !important;
   }
 }
-@layer utilities {
-  .relative {
-    position: relative;
-  }
-  .block {
-    display: block;
-  }
-}
+@layer utilities;
