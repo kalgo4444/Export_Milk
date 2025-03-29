@@ -7,28 +7,81 @@
     <link rel="stylesheet" href="./src/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body>
-    <header class="container border h-[102px] w-full flex justify-between items-center absolute top-0 left-0 z-10">
-      <div class="flex items-center gap-[22px]">
-        <img src="./assets/images/logo.svg" alt="">
-        <p class="text-[15px] text-white w-[210px] max-[992px]:text-sm max-[576px]:text-[12px] max-[576px]:w-[163px] max-[390px]:w-[106px]">Разрабатываем фирменные стили с 2009 года</p>
-      </div>
-      <div class="flex gap-[23px] items-center">
-        <a href="tel:+84951563911" class="max-[768px]:hidden"><img src="./assets/images/facebook.svg" alt=""></a>
-        <a href="#" class="max-[768px]:hidden"><img src="./assets/images/call.svg" alt=""></a>
-        <a href="#" class="max-[768px]:hidden"><img src="./assets/images/instagram.svg" alt=""></a>
-        <a href="#" class="min-[768px]:hidden max-[768px]:block"><img src="./assets/images/burger.svg" alt=""></a>
-      </div>
+  <body class="min-h-[300vh]">
+    <header class="absolute top-0 left-0 w-full z-50">
+      <nav class="container w-full h-[90px] flex items-center justify-between">
+        <div class="flex gap-[22px] items-center">
+          <img src="./assets/images/logo.svg" alt="">
+          <span class="max-w-[210px] w-full text-[15px] text-white max-[768px]:text-sm max-[576px]:text-[12px] max-[430px]:max-w-[106px]">Разрабатываем фирменные стили с 2009 года</span>
+        </div>
+        <div class="flex items-center gap-[23px]">
+          <button class="max-[768px]:hidden"><img src="./assets/images/facebook.svg" alt=""></button>
+          <button class="max-[768px]:hidden"><img src="./assets/images/call.svg" alt=""></button>
+          <button class="max-[768px]:hidden"><img src="./assets/images/instagram.svg" alt=""></button>
+          <button class="block min-[768px]:hidden"><img src="./assets/images/burger.svg" alt=""></button>
+        </div>
+      </nav>
     </header>
-
     <main>
-      <!-- hero -->
-       <section class="relative w-full h-[945px] bg-[url(/assets/images/hero-display.png)] bg-no-repeat bg-cover bg-center max-[992px]:h-[768px]">
-        <!-- <div class="container border w-full h-20"></div> -->
+      <!-- hero  -->
+      <section class="relative w-full h-[945px] bg-[url(/assets/images/hero-display.png)] bg-no-repeat bg-cover bg-center max-[992px]:h-[768px] max-[768px]:h-[1024px] max-[768px]:bg-[url(/assets/images/hero-table.png)] max-[576px]:h-[496px] max-[576px]:bg-[url(/assets/images/hero-mobile.png)] max-[400px]:h-[640px] max-[400px]:bg-[url(/assets/images/hero-mobile-small.png)]">
+        <div class="container w-full h-full flex flex-col justify-center">
+          <h2 class="w-full text-[55px] max-[992px]:text-[45px] max-[768px]:text-white max-[576px]:text-[30px]">Вам нужен фирменный <br>стиль или ребрендинг?</h2>
+          <p class="  w-full text-[34px] max-[992px]:text-[26px] max-[768px]:text-white max-[576px]:text-[20px] max-[576px]:max-w-[200px] ">Разработаем в срок от 10-ти дней</p>
+          <div class="flex items-center gap-5 mt-[65px] max-[992px]:mt-[55px] max-[768px]:flex-col max-[768px]:items-start max-[768px]:mt-[78px] max-[576px]:flex-row max-[576px]:items-center max-[576px]:mt-[25px] max-[450px]:flex-col-reverse max-[450px]:items-start max-[400px]:mt-10">
+            <button class="bg-white px-[47px] py-[23px] rounded-[40px] hover:drop-shadow-lg duration-200 max-[992px]:py-[19px] max-[576px]:py-3.5 max-[576px]:text-[15px] :">Портфолио</button>
+            <button class="bg-white px-[47px] py-[23px] rounded-[40px] hover:drop-shadow-lg duration-200 max-[992px]:py-[19px] max-[576px]:py-3.5 max-[576px]:text-[15px] :">Оставить заявку</button>
+          </div>
+        </div>
+      </section>
+      <!-- style  -->
+       <section class="py-10 mt-10">
+        <div class="container">
+          <h2 class="mb-3.5 text-[38px] max-[992px]:text-[34px] max-[576px]:text-[32px]">Что такое фирменный стиль</h2>
+          <div class="flex items-center gap-[30px] max-[768px]:flex-col max-[768px]:items-start">
+            <div class="w-[55%] max-[768px]:w-[70%] max-[576px]:w-[100%]">
+              <img src="./assets/images/style-img.png" alt="" class="">
+            </div>
+            <div class="w-[45%] max-[768px]:w-[70%] max-[500px]:w-[100%]">
+            <p class="w-full text-[16px] max-[576px]:text-[15px] max-[450px]:text-[14px]">Это набор тех уникальных «признаков», по которым клиент отличит вас от других компаний. Фирменный стиль отражает миссию бренда, ценности, является способом его идентификации, формирует определённое восприятие в коммуникации с потребителями.
+              <br><br>
+              В идеале разработка корпоративного стиля должна происходить одновременно с созданием бизнеса и формированием его фундаментальных идей. Есть и второй вариант: бизнес существует определенное время и ему нужен перезапуск - это называется редизайн или ребрендинг: в мире жёсткой конкуренции важно быть «в тренде», успевать за изменениями в поведениях покупателя и “говорить” с ним на одном языке.</p>
+            </div>
+            </div>
+        </div>
        </section>
+       <!-- namelogo -->
+        <section class="container py-[60px] mt-10">
+          <h2 class="w-full text-[45px] max-[576px]:text-[35px]">Название и логотип – важные составляющие фирменного стиля, но на этом всё только начинается. Ниже основные элементы:</h2>
+          <div class="mt-[62px]  grid grid-cols-5 max-[800px]:grid-cols-3 gap-y-[90px] max-[576px]:grid-cols-1">
+            <!-- box 1 -->
+            <div class="flex items-start gap-[7px] max-[576px]:items-center max-[576px]:gap-[68px] max-[400px]:gap-[56px]">
+              <span class="text-[45px] -translate-y-[35px] max-[800px]:-translate-y-[10px]">1</span>
+              <span class="max-w-[84px] w-full text-[16px] max-[576px]:max-w-full">Название компании</span>
+            </div>
+            <!-- box 2 -->
+            <div class="flex items-start gap-[7px] max-[576px]:items-center max-[576px]:gap-[68px] max-[400px]:gap-[56px]">
+              <span class="text-[45px] -translate-y-[35px] max-[800px]:-translate-y-[10px]">2</span>
+              <span class="max-w-[147px] w-full text-[16px] max-[576px]:max-w-[163px]">Логотип – основной графический символ</span>
+            </div>
+            <!-- box 3 -->
+            <div class="flex items-start gap-[7px] max-[576px]:items-center max-[576px]:gap-[68px] max-[400px]:gap-[56px]">
+              <span class="text-[45px] -translate-y-[35px] max-[800px]:-translate-y-[10px]">3</span>
+              <span class="max-w-[122px] w-full text-[16px] max-[576px]:max-w-[163px]">Фирменные цвета всей коммуникации (онлайн и оффлайн)</span>
+            </div>
+            <!-- box 4 -->
+            <div class="flex items-start gap-[7px] max-[576px]:items-center max-[576px]:gap-[68px] max-[400px]:gap-[56px]">
+              <span class="text-[45px] -translate-y-[35px] max-[800px]:-translate-y-[10px]">4</span>
+              <span class="max-w-[60px] w-full text-[16px] max-[576px]:max-w-full">Шрифт</span>
+            </div>
+            <!-- box 5 -->
+            <div class="flex items-start gap-[7px] max-[576px]:items-center max-[576px]:gap-[68px] max-[400px]:gap-[56px]">
+              <span class="text-[45px] -translate-y-[35px] max-[800px]:-translate-y-[10px]">5</span>
+              <span class="max-w-[180px] w-full text-sm max-[576px]:max-w-[259px]"><span class="text-[16px]">Носители <br>фирменного стиля</span> <br><br>Этот набор варьируется в зависимости от нужд и потребностей компании: визитные карточки, фирменные бланки и прочая деловая документация, упаковка, сувенирная продукция, брендинг автотранспорта.</span>
+            </div>
+          </div>
+        </section>
     </main>
-
-
     <!-- up  -->
     <a href="#" class="block fixed bottom-8 right-8 p-3 rounded-full bg-black text-white shadow-black shadow-[0_1px_7px]">UP</a>
     <!-- js  -->

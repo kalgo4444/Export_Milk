@@ -22,4 +22,6 @@ p,h1,h2,h3,h4,span,button,input,textarea,select{
 }
 a, input, button{
     cursor: pointer;
+    transform: t;
 }
+
